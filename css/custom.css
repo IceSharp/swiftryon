@@ -1,6 +1,6 @@
 /* Make the overall layout wider */
 #body-wrap {
-  width: 80%;
+  width: 100%;
 }
 
 /* Adjust the main container to remove default max-width */
