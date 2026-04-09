@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>嘉言懿行遇流年</title>
+    <link>https://www.swiftryon.com/</link>
+    <description>Graceful Words, Noble Deeds, Through the Years</description>
+    <language>zh-CN</language>
+    <copyright>All rights reserved 2026, Yovi Swift</copyright>
+    <lastBuildDate>Thu, 09 Apr 2026 14:30:31 GMT</lastBuildDate>
+    <generator>Hexo</generator>
+    <image>
+      <url>https://www.swiftryon.com/icon.png</url>
+      <title>嘉言懿行遇流年</title>
+      <link>https://www.swiftryon.com/</link>
+    </image>
+    <atom:link href="https://www.swiftryon.com/rss2.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Hello World</title>
+      <link>https://www.swiftryon.com/post/4a17b156.html</link>
+      <description>
+        <![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a>]]>
+      </description>
+      <author>Yovi Swift</author>
+      <pubDate>Thu, 09 Apr 2026 06:45:11 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
