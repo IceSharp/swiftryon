@@ -1,3 +1,31 @@
+/* Make the overall layout wider */
+#body-wrap {
+  width: 100%;
+}
+
+/* Adjust the main container to remove default max-width */
+.layout {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 20px; /* Optional: adds padding to sides */
+}
+
+/* Ensure the main content area takes up full space */
+.layout > .layout_item {
+  width: 100% !important;
+}
+
+/* If you want to force the sidebar to be involved, adjust its width */
+.layout > .aside_content {
+  width: 25% !important; /* Adjust as necessary */
+}
+
+/* Ensure the post content area is full width */
+#post .post-body {
+  max-width: 100% !important;
+}
+
+
 /* 文章页H1-H6图标样式效果 */
 h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
     -webkit-animation: ccc 1.6s linear infinite ;
@@ -147,6 +175,8 @@ transform: rotate(360deg)
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
+
 #footer:before {
     background-color: rgba(0, 0, 0, 0);
 }
