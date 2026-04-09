@@ -1,18 +1,18 @@
 /* Make the overall layout wider */
 #body-wrap {
-  width: 100%;
+  width: 80%;
 }
 
 /* Adjust the main container to remove default max-width */
 .layout {
-  max-width: 100% !important;
-  width: 100% !important;
+  max-width: 80% !important;
+  width: 80% !important;
   padding: 0 20px; /* Optional: adds padding to sides */
 }
 
 /* Ensure the main content area takes up full space */
 .layout > .layout_item {
-  width: 100% !important;
+  width: 80% !important;
 }
 
 /* If you want to force the sidebar to be involved, adjust its width */
@@ -22,7 +22,7 @@
 
 /* Ensure the post content area is full width */
 #post .post-body {
-  max-width: 100% !important;
+  max-width: 80% !important;
 }
 
 
